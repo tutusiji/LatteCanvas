@@ -5,7 +5,9 @@ async function getInfo(ctx, next) {
     ctx.message = "success"
     ctx.body = {
         code: 0,
-        data: {}
+        data: {
+            name: "张三"
+        }
     }
     next()
 }
