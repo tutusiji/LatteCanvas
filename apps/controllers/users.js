@@ -1,14 +1,12 @@
 
 async function getInfo(ctx, next) {
-    console.log('get info')
-    ctx.status = 200
-    ctx.message = "success"
-    ctx.body = {
+    ctx.ok({
         code: 0,
         data: {
-            name: "张三"
-        }
-    }
+            name: '张三'
+        },
+        message: "success"
+    })
     next()
 }
 
