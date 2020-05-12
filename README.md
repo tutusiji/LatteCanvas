@@ -14,4 +14,7 @@ git clone https://github.com/tutusiji/working-calendar-servers.git
 npm install
 # 启动
 npm run dev
+
+启动完，在浏览器输入：http://127.0.0.1:3100/user/1
 ```
+npm出现问题时可以试试先``npm cache clean --force``
