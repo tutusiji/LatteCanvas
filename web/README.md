@@ -1,4 +1,5 @@
 使用React和Node构建实时协作的白板应用
+
 原创 前端达人 前端达人 2023-10-20 08:01 发表于北京
 
 https://mp.weixin.qq.com/s/hLlY786AoZ89I200bIKjEQ
@@ -23,6 +24,7 @@ npx create-react-app collaborate_client
 
 cd collaborate_client
 安装依赖
+
 在我们的项目初始化完成后，现在是时候安装必要的依赖项，以支持我们的实时协作白板了。这些依赖项包括 socket.io 用于实时通信，以及 RoughJS 用于绘图功能。
 
 socket.io：安装 socket.io 库以建立WebSocket连接进行实时数据交换；
